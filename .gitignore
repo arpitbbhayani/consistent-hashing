@@ -1,2 +1,3 @@
 venv
 *ipynb_checkpoint*
+__pycache__
