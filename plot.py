@@ -24,7 +24,7 @@ def plot_hashring(ring_length, occupied_keys, nodes, item_key: int = None, node_
     for k, rect in enumerate(barlist):
         height = rect.get_height()
         if i < len(occupied_keys) and occupied_keys[i] == k:
-            text = nodes[i]
+            text = nodes[i].name
             i += 1
         else:
             text = ""
